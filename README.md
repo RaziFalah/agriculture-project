@@ -1,7 +1,7 @@
 <h1>Notes</h1>
 <p>In leds, long pin (A) is the positive pin and the short one (C) is the negative one.<br>Resistance is important to protect the led from over voltage which prevent shortage, Also and most importantly it helps control the led power which affect how the led power on and how strong the light is.<br>Integrate 220 ohms resistor to achive best outcome.</p>
 <hr>
-<center><image src="https://github-production-user-asset-6210df.s3.amazonaws.com/92949627/267998759-87407626-3e55-4839-84b8-4c279f23d310.png"></image></center>
+<center><image src="digrams/prototype.png"></image></center>
 <h1>Features</h1>
 <h3>Water supplying:</h3>
 In this feature there will be a connected water supply tube to every plant in the system, the water will be supplied depending on Whether the ground is dry or not.<br>There will be a wiether check using an API  when the day is rainy the water supplying will be skipped.
