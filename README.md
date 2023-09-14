@@ -14,8 +14,8 @@ The system will conduct a temperature check if the temperature is unacceptable t
 <h3>Fire and gas alarm</h3>
 If a fire or a gas leak was detected by the system the system will automatically signal a sonic alarm and also a popup on the web interface and overwork the water supplying
 <h3>Web interface</h3>
-Responsible for handiling alarms.
+Responsible for handiling pop-up alarms.
 <h3>Sonic system</h3>
-Responsible for handiling alarms.
+Responsible for handiling sonic alarms.
 <h3>Artificial lighting system</h3>
 Responsible for providing plants with lights if needed, determined using a photoresistor or time table.
