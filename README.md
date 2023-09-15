@@ -53,3 +53,4 @@ Responsible for providing plants with lights if needed, determined using a photo
 <image src="digrams/esp32_lcd.png"><br>
 <a href="code/main_lcd.cpp">View LCD display containing weather and alarm data code here.</a><br>
 **No need for testing, device is operating successfuly and same as the pervious test**
+<br><image src="digrams/lcd_prototype.gif"><br>
