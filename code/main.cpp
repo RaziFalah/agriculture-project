@@ -13,7 +13,7 @@ const char* password = "";
 
 //URL Endpoint for the API
 String URL = "http://api.openweathermap.org/data/2.5/weather?";
-String ApiKey = "e4601654a66d2e3f42d1f1783b5f5a09";
+String ApiKey = "token";
 
 // Replace with your location Credentials
 String lat = "32.7776";
