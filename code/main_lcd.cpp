@@ -6,7 +6,7 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-LiquidCrystal_I2C LCD = LiquidCrystal_I2C(0x27, 16, 2);
+LiquidCrystal_I2C LCD = LiquidCrystal_I2C(0x27, 19, 3);
 
 
 
@@ -56,8 +56,8 @@ void setup() {
   LCD.print("Connecting to ");
   LCD.setCursor(0, 1);
   LCD.print("WiFi ");
-  LCD.setCursor(0, 2);
-  LCD.print("Loading... ");
+  LCD.setCursor(0, 3);
+  LCD.print("By razifalah.com");
 
 
   WiFi.begin("Wokwi-GUEST", "", 6);
@@ -85,9 +85,9 @@ void loop() {
     HTTPClient http;
 
     //Set HTTP Request Final URL with Location and API key information
-    http.begin(URL + "lat=" + lat + "&lon=" + lon + "&units=metric&appid=" + ApiKey);
+    //http.begin(URL + "lat=" + lat + "&lon=" + lon + "&units=metric&appid=" + ApiKey);
 //for testing
-    //http.begin("https://testweaapi.refunction.repl.co/data.json");
+    http.begin("https://testweaapi.refunction.repl.co/data.json");
     // start connection and send HTTP Request
     int httpCode = http.GET();
 
@@ -122,60 +122,66 @@ void loop() {
       } else {
         Serial.println("====================");
         if(temp > 30){
+          LCD.setCursor(0, 1);
+          LCD.print("Watered [YES] +");
           //If moist sensor returned "WET" and the temp is high supply water anyway
           Serial.println("High temperature detected, Supplying extra water.");
           //Related function goes here
         } else {
           if(description == "clear sky"){
             Serial.println("Supplying water as routine.");
-            LCD.setCursor(0, 0);
+            LCD.setCursor(0, 1);
             LCD.print("Watered [YES]");
           } else {
             Serial.println("Supplying water was skipped.");
-            LCD.setCursor(0, 0);
+            LCD.setCursor(0, 1);
             LCD.println("Watered [NO]");
           }
           
           //Related function goes here
         }
-        LCD.setCursor(0, 3);
-        LCD.print(description);
+        LCD.setCursor(13, 0);
+        LCD.print(humidity);
+        LCD.print("%");
+        LCD.setCursor(1, 0);
+        LCD.print(temp);
+        LCD.print("c");
         Serial.println("====================");
         if(humidity >= 40.00 && humidity <= 60){
           Serial.println("Humidity is ideal");
-          LCD.setCursor(0, 1);
+          LCD.setCursor(0, 2);
           LCD.println("Humidity [OK]");
         } else if (humidity <= 100 && humidity > 60) {
           Serial.println("Humidity is high, fans have been turned on.");
-          LCD.setCursor(0, 1);
+          LCD.setCursor(0, 2);
           LCD.print("Humidity [HIGH]");
 
           //Turn on fans
         } else if (humidity >= 20 && humidity < 40) {
           Serial.println("Humidity level is low, consider spraying water in the air.");
-          LCD.setCursor(0, 1);
+          LCD.setCursor(0, 2);
           LCD.print("Humidity [LOW]");
         } else {
           Serial.println("Humidity level is unrecognizable");
-          LCD.setCursor(0, 1);
+          LCD.setCursor(0, 2);
           LCD.print("Humidity [?]");
         }
         Serial.println("====================");
         if(temp >= 20 && temp <=30){
           Serial.println("Temperature is acceptable.");
-          LCD.setCursor(0, 2);
+          LCD.setCursor(0, 3);
           LCD.print("Temperature [OK].");
         } else if (temp >= 0 && temp <=20){
           Serial.println("Temperature is low, lights are now on.");
-          LCD.setCursor(0, 2);
+          LCD.setCursor(0, 3);
           LCD.print("Temperature [LOW]");
         } else if (temp >= 30 && temp <=100) {
           Serial.print("Temperature is high, fans have been turned on.");
-          LCD.setCursor(0, 2);
+          LCD.setCursor(0, 3);
           LCD.print("Temperature [HIGH]");
         } else {
           Serial.println("Temperature is below 0, lights are now on. Please consider other means of warming");
-          LCD.setCursor(0, 2);
+          LCD.setCursor(0, 3);
           LCD.print("Temperature [NEG]");
 
         }
