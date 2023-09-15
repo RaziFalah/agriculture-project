@@ -44,4 +44,5 @@ Responsible for providing plants with lights if needed, determined using a photo
 <h1>Functions</h1>
 <h4>API Connection</h4>
 <p>ESP32-WIFI connection code with openweather API using http request</p>
-<a href="code/API_Connection.cpp">View API http call code here & init wifi here.</a>
+<a href="code/main.cpp">View API http call code & init wifi at the main file here.</a><br>
+<a href="tests/API_testing.md">View API http call sandbox test here (Not a real API).</a>
