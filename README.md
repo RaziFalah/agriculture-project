@@ -31,11 +31,13 @@ Responsible for providing plants with lights if needed, determined using a photo
 <h4>Needed components</h4>
 
 <ul>
+  <li>ESP32 Board</li>
+  <li>Moisture sensor</li>
   <li>Moisture sensor</li>
   <li>Photoresistor</li>
   <li>Gas sensor</li>
   <li>Sonic alarm</li>
-  <li>Water supplier</li>
+  <li>Water supplier motor</li>
   <li>Light supplier</li>
 </ul>
 
