@@ -49,7 +49,7 @@ Responsible for providing plants with lights if needed, determined using a photo
 <a href="code/main.cpp">View API http call code & init wifi at the main file here.</a><br>
 <a href="tests/API_testing.md">View API http call sandbox test here (Not a real API).</a>
 
-***Exampe of the code running in the ESP32 according to the API data with LCD display***
-<image src="digrams/esp32_lcd.png">
+***Exampe of the code running in the ESP32 according to the API data with LCD display***<br>
+<image src="digrams/esp32_lcd.png"><br>
 <a href="code/main_lcd.cpp">View LCD display containing weather and alarm data code here.</a><br>
 **No need for testing, device is operating successfuly and same as the pervious test**
