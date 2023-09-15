@@ -20,7 +20,13 @@ Responsible for handiling pop-up alarms.
 <h4>Sonic system</h4>
 Responsible for handiling sonic alarms.
 <h4>Artificial lighting system</h4>
-Responsible for providing plants with lights if needed, determined using a photoresistor or time table.
+Responsible for providing plants with lights if needed, determined using a photoresistor or time table. <br>
+<br><hr>
+
+***Exampe of the code running in the ESP32 according to the API data***
+
+<image src="digrams/esp32_prototype.png">
+
 <h1>Components</h1>
 <h4>Needed components</h4>
 
