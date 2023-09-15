@@ -48,8 +48,9 @@ void loop() {
     HTTPClient http;
 
     //Set HTTP Request Final URL with Location and API key information
-    http.begin(URL + "lat=" + lat + "&lon=" + lon + "&units=metric&appid=" + ApiKey);
-
+    //http.begin(URL + "lat=" + lat + "&lon=" + lon + "&units=metric&appid=" + ApiKey);
+//for testing
+    http.begin("https://testweaapi.refunction.repl.co/data.json");
     // start connection and send HTTP Request
     int httpCode = http.GET();
 
@@ -107,9 +108,12 @@ void loop() {
       if(temp >= 20 && temp <=30){
         Serial.println("Temperature is acceptable.");
       } else if (temp >= 0 && temp <=20){
-        Serial.println("Temperature is low");
-      } else if (temp >= 30 && temp <=50) {
+        Serial.println("Temperature is low, lights are now on.");
+      } else if (temp >= 30 && temp <=100) {
         Serial.println("Temperature is high, fans have been turned on.");
+      } else {
+        Serial.println("Temperature is below 0, lights are now on. Please consider other means of warming");
+
       }
       Serial.println("====================");
 
@@ -124,5 +128,5 @@ void loop() {
   }
   
   //Wait for 30 seconds
-  delay(30000);
+  delay(10000);
 }
