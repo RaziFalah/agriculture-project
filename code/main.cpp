@@ -13,7 +13,7 @@ const char* password = "";
 
 //URL Endpoint for the API
 String URL = "http://api.openweathermap.org/data/2.5/weather?";
-String ApiKey = "token";
+String ApiKey = "e4601654a66d2e3f42d1f1783b5f5a09";
 
 // Replace with your location Credentials
 String lat = "32.7776";
@@ -48,9 +48,9 @@ void loop() {
     HTTPClient http;
 
     //Set HTTP Request Final URL with Location and API key information
-    //http.begin(URL + "lat=" + lat + "&lon=" + lon + "&units=metric&appid=" + ApiKey);
+    http.begin(URL + "lat=" + lat + "&lon=" + lon + "&units=metric&appid=" + ApiKey);
 //for testing
-    http.begin("https://testweaapi.refunction.repl.co/data.json");
+    //http.begin("https://testweaapi.refunction.repl.co/data.json");
     // start connection and send HTTP Request
     int httpCode = http.GET();
 
@@ -79,43 +79,48 @@ void loop() {
       Serial.print(humidity);
       Serial.print("%");
       Serial.println(" ");
-      Serial.println("====================");
-      if(temp > 30){
-        //If moist sensor returned "WET" and the temp is high supply water anyway
-        Serial.println("High temperature detected, Supplying extra water.");
-        //Related function goes here
+      if(temp == 0 && humidity == 0){
+        Serial.println("Data is invalid. API might be down");
       } else {
-        if(description == "clear sky"){
-          Serial.println("Supplying water as routine.");
+        Serial.println("====================");
+        if(temp > 30){
+          //If moist sensor returned "WET" and the temp is high supply water anyway
+          Serial.println("High temperature detected, Supplying extra water.");
+          //Related function goes here
         } else {
-          Serial.println("Supplying water was skipped.");
+          if(description == "clear sky"){
+            Serial.println("Supplying water as routine.");
+          } else {
+            Serial.println("Supplying water was skipped.");
+          }
+          
+          //Related function goes here
         }
-        
-        //Related function goes here
-      }
-      Serial.println("====================");
-      if(humidity >= 40.00 && humidity <= 60){
-        Serial.println("Humidity is ideal");
-      } else if (humidity <= 100 && humidity > 60) {
-        Serial.println("Humidity is high, fans have been turned on.");
-        //Turn on fans
-      } else if (humidity >= 20 && humidity > 40) {
-        Serial.println("Humidity level is low, consider spraying water in the air.");
-      } else {
-        Serial.println("Humidity level is unrecognizable");
-      }
-      Serial.println("====================");
-      if(temp >= 20 && temp <=30){
-        Serial.println("Temperature is acceptable.");
-      } else if (temp >= 0 && temp <=20){
-        Serial.println("Temperature is low, lights are now on.");
-      } else if (temp >= 30 && temp <=100) {
-        Serial.println("Temperature is high, fans have been turned on.");
-      } else {
-        Serial.println("Temperature is below 0, lights are now on. Please consider other means of warming");
-
-      }
-      Serial.println("====================");
+        Serial.println("====================");
+        if(humidity >= 40.00 && humidity <= 60){
+          Serial.println("Humidity is ideal");
+        } else if (humidity <= 100 && humidity > 60) {
+          Serial.println("Humidity is high, fans have been turned on.");
+          //Turn on fans
+        } else if (humidity >= 20 && humidity < 40) {
+          Serial.println("Humidity level is low, consider spraying water in the air.");
+        } else {
+          Serial.println("Humidity level is unrecognizable");
+        }
+        Serial.println("====================");
+        if(temp >= 20 && temp <=30){
+          Serial.println("Temperature is acceptable.");
+        } else if (temp >= 0 && temp <=20){
+          Serial.println("Temperature is low, lights are now on.");
+        } else if (temp >= 30 && temp <=100) {
+          Serial.println("Temperature is high, fans have been turned on.");
+        } else {
+          Serial.println("Temperature is below 0, lights are now on. Please consider other means of warming");
+  
+        }
+        Serial.println("====================");
+  
+        }
 
     } else {
       Serial.println("Error!");
