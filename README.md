@@ -17,8 +17,8 @@ The system will conduct a temperature check if the temperature is unacceptable t
 If a fire or a gas leak was detected by the system the system will automatically signal a sonic alarm and also a popup on the web interface and overwork the water supplying
 <h4>Web interface</h4>
 Responsible for handiling pop-up alarms.
-<h4>Sonic system</h4>
-Responsible for handiling sonic alarms.
+<h4>LCD display system</h4>
+Responsible for handiling alarms and weather data.
 <h4>Artificial lighting system</h4>
 Responsible for providing plants with lights if needed, determined using a photoresistor or time table. <br>
 <br><hr>
@@ -48,3 +48,8 @@ Responsible for providing plants with lights if needed, determined using a photo
 <p>ESP32-WIFI connection code with openweather API using http request</p>
 <a href="code/main.cpp">View API http call code & init wifi at the main file here.</a><br>
 <a href="tests/API_testing.md">View API http call sandbox test here (Not a real API).</a>
+
+***Exampe of the code running in the ESP32 according to the API data with LCD display***
+<image src="digrams/esp32_lcd.png">
+<a href="code/main_lcd.cpp">View LCD display containing weather and alarm data code here.</a><br>
+**No need for testing, device is operating successfuly and same as the pervious test**
