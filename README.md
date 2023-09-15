@@ -10,8 +10,12 @@ APIs: openweather.<br>
 
 
 <h1>Introduction</h1>
-<p>This project is </p>
+<p>This agriculture project is powered by arduino ESP32 micro-controller, this projects aims towards building a smart agriculture house containing a handful amount of sensors in order to achieve a smarter way of monitoring plants. it's equipped with state-of-the-art security measurements and immediate alarms and protective actions.</p>
+<br>  
 
+***The following image contains a prototype describing how the system works.***
+
+<br>
 <center><image src="digrams/prototype.png"></image></center>
 <h1>Features</h1>
 <h4>Water supplying:</h4>
