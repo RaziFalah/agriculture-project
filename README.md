@@ -50,8 +50,8 @@ Responsible for providing plants with lights if needed, determined using a photo
   <li>Water supplier motor</li> <a>Not yet decided</a>
   <li>Light supplier (LED orange)</li> <a href="https://www.aliexpress.com/item/1005003323707856.html?spm=a2g0o.order_list.order_list_main.50.5c471802ypflOP">View on aliexpress</a>
   <li>Alarm ligh (LED Red)</li> <a href="https://www.aliexpress.com/item/1005003323707856.html?spm=a2g0o.order_list.order_list_main.49.5c471802ypflOP">View on aliexpress</a>
-  <il>5mm fans</il> <a href="https://www.aliexpress.com/item/1005003878734109.html?spm=a2g0o.order_list.order_list_main.44.5c471802ypflOP">View on aliexpress</a>
-  <il>4*20 LCD Display</il> <a href="https://www.aliexpress.com/item/4000863723154.html?spm=a2g0o.order_list.order_list_main.39.5c471802ypflOP">View on aliexpress</a>
+  <li>5mm fans</li> <a href="https://www.aliexpress.com/item/1005003878734109.html?spm=a2g0o.order_list.order_list_main.44.5c471802ypflOP">View on aliexpress</a>
+  <li>4*20 LCD Display</li> <a href="https://www.aliexpress.com/item/4000863723154.html?spm=a2g0o.order_list.order_list_main.39.5c471802ypflOP">View on aliexpress</a>
 </ul>
 
 
