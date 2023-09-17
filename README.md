@@ -49,7 +49,7 @@ Responsible for providing plants with lights if needed, determined using a photo
   <li>Gas sensor</li>
   <li>Sonic alarm</li>
   <li>Water supplier motor</li>
-  <li>Light supplier</li>
+  <li>Light supplier (LED Red)</li>
 </ul>
 
 
