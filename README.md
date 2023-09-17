@@ -42,14 +42,16 @@ Responsible for providing plants with lights if needed, determined using a photo
 <h4>Needed components</h4>
 
 <ul>
-  <li>ESP32 Board</li>
-  <li>Moisture sensor</li>
-  <li>Moisture sensor</li>
-  <li>Photoresistor</li>
-  <li>Gas sensor</li>
-  <li>Sonic alarm</li>
-  <li>Water supplier motor</li>
-  <li>Light supplier (LED Red)</li>
+  <li>ESP32 Board</li> <a href="https://www.aliexpress.com/item/1005004879572949.html?spm=a2g0o.order_list.order_list_main.9.5c471802ypflOP">View on aliexpress</a>
+  <li>Moisture sensor</li> <a href="https://www.aliexpress.com/item/1005004961237192.html?spm=a2g0o.order_list.order_list_main.4.5c471802ypflOP">View on aliexpress</a>
+  <li>Photoresistor</li> <a href="https://www.aliexpress.com/item/1005005009839541.html?spm=a2g0o.order_list.order_list_main.29.5c471802ypflOP">View on aliexpress</a>
+  <li>Gas sensor</li> <a href="https://www.aliexpress.com/item/1005001666186214.html?spm=a2g0o.order_list.order_list_main.24.5c471802ypflOP">View on aliexpress</a>
+  <li>Sonic alarm</li> <a href="https://www.aliexpress.com/item/1005003274011049.html?spm=a2g0o.order_list.order_list_main.34.5c471802ypflOP">View on aliexpress</a>
+  <li>Water supplier motor</li> <a>Not yet decided</a>
+  <li>Light supplier (LED orange)</li> <a href="https://www.aliexpress.com/item/1005003323707856.html?spm=a2g0o.order_list.order_list_main.50.5c471802ypflOP">View on aliexpress</a>
+  <li>Alarm ligh (LED Red)</li> <a href="https://www.aliexpress.com/item/1005003323707856.html?spm=a2g0o.order_list.order_list_main.49.5c471802ypflOP">View on aliexpress</a>
+  <il>5mm fans</il> <a href="https://www.aliexpress.com/item/1005003878734109.html?spm=a2g0o.order_list.order_list_main.44.5c471802ypflOP">View on aliexpress</a>
+  <il>4*20 LCD Display</il> <a href="https://www.aliexpress.com/item/4000863723154.html?spm=a2g0o.order_list.order_list_main.39.5c471802ypflOP">View on aliexpress</a>
 </ul>
 
 
