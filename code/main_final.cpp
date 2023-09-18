@@ -74,7 +74,7 @@ void setup() {
 
   LCD.clear();
   LCD.setCursor(0, 0);
-  LCD.println("Online");
+  LCD.println("System is Online.");
   LCD.setCursor(0, 1);
   LCD.println("Connecting to API...");
 }
