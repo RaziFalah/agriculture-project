@@ -67,4 +67,12 @@ Responsible for providing plants with lights if needed, determined using a photo
 <a href="code/main_lcd.cpp">View LCD display containing weather and alarm data code here.</a><br>
 **No need for testing, device is operating successfuly and same as the pervious test**
 <br><image src="digrams/lcd_prototype.gif.gif"><br>
+
+
+
+***Example of the demo alarm system***
+
+<image src="digra,s/led_lcd_esp32.gif"><br>
+
+<p>This alarm system is not yet finished and waiting for a speaker alarm and more extra leds to be added.</p>
 <a href="https://github.com/RaziFalah/agriculture-project/blob/main/video%20log/2023-09-18_14-13-18.mp4">Download video here</a>
