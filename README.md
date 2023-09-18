@@ -9,6 +9,10 @@ APIs: openweather.<br>
 * [Functions](#functions)
 
 
+<a href="https://github.com/RaziFalah/agriculture-project/blob/main/esp32_status.md">view ESP32 status</a>
+<hr>
+
+
 <h1>Introduction</h1>
 <p>This agriculture project is powered by arduino ESP32 micro-controller, this projects aims towards building a smart agriculture house containing a handful amount of sensors in order to achieve a smarter way of monitoring plants. it's equipped with state-of-the-art security measurements and immediate alarms and protective actions.</p>
 <br>  
