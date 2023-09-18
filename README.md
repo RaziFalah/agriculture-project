@@ -76,3 +76,10 @@ Responsible for providing plants with lights if needed, determined using a photo
 
 <p>This alarm system is not yet finished and waiting for a speaker alarm and more extra leds to be added.</p>
 <a href="https://github.com/RaziFalah/agriculture-project/blob/main/video%20log/2023-09-18_14-13-18.mp4">Download video here</a>
+
+
+***example of light supplier***
+
+<image src="digrams/light_supplier.gif"><br>
+
+<p>This light supplier works only in the day, it determines if it should run or not based on Openweather API to get night/day status and also a light sensor.</p>
