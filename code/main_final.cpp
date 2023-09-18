@@ -11,7 +11,7 @@ LiquidCrystal_I2C LCD = LiquidCrystal_I2C(0x27, 19, 3);
 
 
 String URL = "http://api.openweathermap.org/data/2.5/weather?";
-String ApiKey = "e4601654a66d2e3f42d1f1783b5f5a09";
+String ApiKey = "token";
 
 // Replace with your location Credentials
 String lat = "32.7776";
@@ -99,6 +99,9 @@ void loop() {
       if(fire == 1){
         // Fire alarm
         while(true) {
+          digitalWrite(32, LOW); 
+          digitalWrite(19, LOW); 
+          digitalWrite(18, LOW); 
           digitalWrite(23, LOW);   // turn the LED on (HIGH is the voltage level)
           digitalWrite(13, LOW);   // turn the LED on (HIGH is the voltage level)
           delay(590); 
