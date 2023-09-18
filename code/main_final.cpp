@@ -17,11 +17,6 @@ String ApiKey = "e4601654a66d2e3f42d1f1783b5f5a09";
 String lat = "32.7776";
 String lon = "35.3057";
 
-
-#define NTP_SERVER     "pool.ntp.org"
-#define UTC_OFFSET     0
-#define UTC_OFFSET_DST 0
-
 void spinner() {
   static int8_t counter = 0;
   const char* glyphs = "\xa1\xa5\xdb";
@@ -32,20 +27,8 @@ void spinner() {
   }
 }
 
-void printLocalTime() {
-  struct tm timeinfo;
-  if (!getLocalTime(&timeinfo)) {
-    LCD.setCursor(0, 1);
-    LCD.println("Connection Err");
-    return;
-  }
-
-  LCD.setCursor(8, 0);
-  LCD.println(&timeinfo, "%H:%M:%S");
-
-  LCD.setCursor(0, 1);
-  LCD.println(&timeinfo, "%d/%m/%Y   %Z");
-}
+int off_lights = 1;
+int on_lights = 1;
 
 void setup() {
   Serial.begin(115200);
@@ -60,6 +43,9 @@ void setup() {
   LCD.print("By razifalah.com");
   pinMode(23, OUTPUT);
   pinMode(13, OUTPUT);
+  pinMode(18, OUTPUT);
+  pinMode(19, OUTPUT);
+  pinMode(32, OUTPUT);
 
 
   WiFi.begin("Wokwi-GUEST", "", 6);
@@ -75,7 +61,7 @@ void setup() {
   LCD.clear();
   LCD.setCursor(0, 0);
   LCD.println("System is Online.");
-  LCD.setCursor(0, 1);
+  LCD.setCursor(0, 3);
   LCD.println("Connecting to API...");
 }
 
@@ -105,7 +91,7 @@ void loop() {
       DynamicJsonDocument doc(2048);
       deserializeJson(doc, JSON_Data);
       JsonObject obj = doc.as<JsonObject>();
-
+      const float lights = obj["main"]["lights"].as<float>();
       const float fire = obj["main"]["fire"].as<float>();
       const char* description = obj["weather"][0]["description"].as<const char*>();
       const float temp = obj["main"]["temp"].as<float>();
@@ -126,9 +112,48 @@ void loop() {
           LCD.setCursor(0, 3);
           LCD.print("This is an emergency");
           digitalWrite(23, HIGH);    // turn the LED off by making the voltage LOW
-         digitalWrite(13, HIGH);    // turn the LED off by making the voltage LOW
+          digitalWrite(13, HIGH);    // turn the LED off by making the voltage LOW
           delay(590); 
         }
+      }
+      if(lights == 1){
+        Serial.println(lights);
+        digitalWrite(32, HIGH); 
+        digitalWrite(19, HIGH); 
+        digitalWrite(18, HIGH); 
+        if(on_lights == 1){
+         LCD.clear();
+         LCD.setCursor(2, 0);
+         LCD.print("Lights are poor");
+         LCD.setCursor(2, 1);
+         LCD.print("Artificial lights");
+         LCD.setCursor(2, 2);
+         LCD.print("Have been turned");
+         LCD.setCursor(2, 3);
+         LCD.print("On.");
+         delay(5000);
+        }
+        on_lights = 0;
+        off_lights = 1;
+      } else {
+        Serial.println(lights);
+        digitalWrite(32, LOW); 
+        digitalWrite(19, LOW); 
+        digitalWrite(18, LOW); 
+        if(off_lights == 1){
+         LCD.clear();
+         LCD.setCursor(0, 0);
+         LCD.print("Artificial lights");
+         LCD.setCursor(0, 1);
+         LCD.print("Are no longer needed");
+         LCD.setCursor(0, 2);
+         LCD.print("And have been put");
+         LCD.setCursor(0, 3);
+         LCD.print("to sleep.");
+         delay(5000);
+        }
+        on_lights = 1;
+        off_lights = 0;
       }
       LCD.clear();
       Serial.println("====================");
