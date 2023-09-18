@@ -11,7 +11,7 @@ LiquidCrystal_I2C LCD = LiquidCrystal_I2C(0x27, 19, 3);
 
 
 String URL = "http://api.openweathermap.org/data/2.5/weather?";
-String ApiKey = "token";
+String ApiKey = "e4601654a66d2e3f42d1f1783b5f5a09";
 
 // Replace with your location Credentials
 String lat = "32.7776";
@@ -245,7 +245,6 @@ void loop() {
     http.end();
     
   }
-  //Wait for 30 seconds
-  delay(30000);
+  //Wait
 
 }
