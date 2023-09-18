@@ -9,3 +9,4 @@
   <li>Digital pin 21</li><a href="">connected to LCD display, port SDA.</a>
   <li>3V3 pin</li><a href="">connected to LCD display, port VCC.</a>
 </ul>
+<image src="digrams/esp32_18sep.png">
