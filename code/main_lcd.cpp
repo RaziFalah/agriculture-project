@@ -58,6 +58,8 @@ void setup() {
   LCD.print("WiFi ");
   LCD.setCursor(0, 3);
   LCD.print("By razifalah.com");
+  pinMode(23, OUTPUT);
+  pinMode(13, OUTPUT);
 
 
   WiFi.begin("Wokwi-GUEST", "", 6);
@@ -74,7 +76,7 @@ void setup() {
   LCD.setCursor(0, 0);
   LCD.println("Online");
   LCD.setCursor(0, 1);
-  LCD.println("Connecting...");
+  LCD.println("Connecting to API...");
 }
 
 void loop() {
@@ -104,10 +106,30 @@ void loop() {
       deserializeJson(doc, JSON_Data);
       JsonObject obj = doc.as<JsonObject>();
 
-      
+      const float fire = obj["main"]["fire"].as<float>();
       const char* description = obj["weather"][0]["description"].as<const char*>();
       const float temp = obj["main"]["temp"].as<float>();
       const float humidity = obj["main"]["humidity"].as<float>();
+      if(fire == 1){
+        // Fire alarm
+        while(true) {
+          digitalWrite(23, LOW);   // turn the LED on (HIGH is the voltage level)
+          digitalWrite(13, LOW);   // turn the LED on (HIGH is the voltage level)
+          delay(590); 
+          LCD.clear();
+          LCD.setCursor(1, 0);
+          LCD.print("Fire was detected!");
+          LCD.setCursor(1, 1);
+          LCD.print("Please evacuate");
+          LCD.setCursor(1, 2);
+          LCD.print("Immediately.");
+          LCD.setCursor(0, 3);
+          LCD.print("This is an emergency");
+          digitalWrite(23, HIGH);    // turn the LED off by making the voltage LOW
+         digitalWrite(13, HIGH);    // turn the LED off by making the voltage LOW
+          delay(590); 
+        }
+      }
       LCD.clear();
       Serial.println("====================");
       Serial.println(description);
