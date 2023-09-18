@@ -66,14 +66,19 @@ Responsible for providing plants with lights if needed, determined using a photo
 <p>ESP32-WIFI connection code with openweather API using http request</p>
 <a href="code/main.cpp">View API http call code & init wifi at the main file here.</a><br>
 <a href="tests/API_testing.md">View API http call sandbox test here (Not a real API).</a>
+<hr>
 
 ***Exampe of the code running in the ESP32 according to the API data with LCD display***<br>
 <image src="digrams/esp32_lcd.png"><br>
 <a href="code/main_lcd.cpp">View LCD display containing weather and alarm data code here.</a><br>
+
+<hr>
+
+
 **No need for testing, device is operating successfuly and same as the pervious test**
 <br><image src="digrams/lcd_prototype.gif.gif"><br>
 
-
+<hr>
 
 ***Example of the demo alarm system***
 
@@ -82,6 +87,7 @@ Responsible for providing plants with lights if needed, determined using a photo
 <p>This alarm system is not yet finished and waiting for a speaker alarm and more extra leds to be added.</p>
 <a href="https://github.com/RaziFalah/agriculture-project/blob/main/video%20log/2023-09-18_14-13-18.mp4">Download video here</a>
 
+<hr>
 
 ***example of light supplier***
 
