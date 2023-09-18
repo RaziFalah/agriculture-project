@@ -10,6 +10,7 @@ APIs: openweather.<br>
 
 
 <a href="https://github.com/RaziFalah/agriculture-project/blob/main/esp32_status.md">view ESP32 status</a>
+<a href="https://github.com/RaziFalah/agriculture-project/blob/main/notes.md">View notes table.</a>
 <hr>
 
 
