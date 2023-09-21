@@ -20,4 +20,4 @@ On some microcontrollers PWM is only available on selected pins. Please consider
 
 Once you get this example running, grab your Arduino and shake it back and forth. What you are doing here is essentially mapping time across the space. To our eyes, the movement blurs each LED blink into a line. As the LED fades in and out, those little lines will grow and shrink in length. Now you are seeing the pulse width.
 
-Written by Timothy Hirzel
+Written by Timothy Hirzel modified by Razi Falah
