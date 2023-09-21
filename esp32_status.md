@@ -1,4 +1,5 @@
 <h1>Pin connections</h1>
+<p>The current state of the esp32 through out the project</p>
 <ul>
   <li>Digital pin 32</li><a href="">connected to lighting LED 1.</a>
   <li>Digital pin 19</li><a href="">connected to lighting LED 2.</a>
