@@ -41,7 +41,7 @@ Responsible for handiling alarms and weather data.
 Responsible for providing plants with lights if needed, determined using a photoresistor or time table. <br>
 <br><hr>
 
-***Exampe of the code running in the ESP32 according to the API data***
+***Exampe of the code running in the ESP32 based on the API data***
 
 <image src="digrams/esp32_prototype.png">
 
