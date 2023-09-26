@@ -56,7 +56,7 @@ Responsible for providing plants with lights if needed, determined using a photo
   <li>Photoresistor</li> <a href="https://www.aliexpress.com/item/1005005009839541.html?spm=a2g0o.order_list.order_list_main.29.5c471802ypflOP">View on aliexpress</a>
   <li>Gas sensor</li> <a href="https://www.aliexpress.com/item/1005001666186214.html?spm=a2g0o.order_list.order_list_main.24.5c471802ypflOP">View on aliexpress</a>
   <li>Sonic alarm</li> <a href="https://www.aliexpress.com/item/1005003274011049.html?spm=a2g0o.order_list.order_list_main.34.5c471802ypflOP">View on aliexpress</a>
-  <li>Water supplier motor</li> <a>Not yet decided</a>
+  <li>Water supplier motor (Water pump) </li> <a href="https://www.digikey.co.il/he/products/detail/adafruit-industries-llc/4547/11627730?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax_Product_High%20Volume%20Products&utm_term=&productid=11627730&gclid=EAIaIQobChMIpsvF8YXIgQMVfJqDBx09aAxGEAQYASABEgJ-jfD_BwE">View on digikey</a>
   <li>Light supplier (LED orange)</li> <a href="https://www.aliexpress.com/item/1005003323707856.html?spm=a2g0o.order_list.order_list_main.50.5c471802ypflOP">View on aliexpress</a>
   <li>Alarm ligh (LED Red)</li> <a href="https://www.aliexpress.com/item/1005003323707856.html?spm=a2g0o.order_list.order_list_main.49.5c471802ypflOP">View on aliexpress</a>
   <li>5mm fans</li> <a href="https://www.aliexpress.com/item/1005003878734109.html?spm=a2g0o.order_list.order_list_main.44.5c471802ypflOP">View on aliexpress</a>
