@@ -48,7 +48,7 @@ Responsible for providing plants with lights if needed, determined using a photo
 
 <h1>Components</h1>
 <h4>Needed components</h4>
-
+<p>Most components was already provided at my expense</p>
 <ul>
   <li>ESP32 Board</li> <a href="https://www.aliexpress.com/item/1005004879572949.html?spm=a2g0o.order_list.order_list_main.9.5c471802ypflOP">View on aliexpress</a>
   <li>Power supply</li> <a>Not yet decided.</a>
