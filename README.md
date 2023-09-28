@@ -1,11 +1,11 @@
-Project by <a href="https://razifalah.com" target="_blank">Razi Falah</a>.<br>
+<hr>Project by <a href="https://razifalah.com" target="_blank">Razi Falah</a>.<br>
 Micro-controller board: ESP32.<br>
 APIs: openweather.<br>
 This project is currently in development by Razi Falah and not yet finished.<br>
 This project is written in english for better research and will be translated to Arabic or Hebrew <br> as requested by the ministry of education.<br>
 <a href="https://wokwi.com/projects/376210317579552769">ESP32 simulation can be found if clicked here.</a><br>
 Finishing deadline: First of June 2024
-
+<hr>
 
 ## Table of contents
 * [Introduction](#introduction)
@@ -16,7 +16,7 @@ Finishing deadline: First of June 2024
 
 <a href="https://github.com/RaziFalah/agriculture-project/blob/main/esp32_status.md">view ESP32 status</a><br>
 <a href="https://github.com/RaziFalah/agriculture-project/blob/main/notes.md">View notes table.</a><br>
-<hr>
+
 
 
 <h1>Introduction</h1>
