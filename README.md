@@ -4,6 +4,8 @@ APIs: openweather.<br>
 This project is currently in development by Razi Falah and not yet finished.<br>
 This project is written in english for better research and will be translated to Arabic or Hebrew <br> as requested by the ministry of education.<br>
 <a href="https://wokwi.com/projects/376210317579552769">ESP32 simulation can be found if clicked here.</a><br>
+Finishing deadline: First of June 2024
+
 
 ## Table of contents
 * [Introduction](#introduction)
