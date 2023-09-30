@@ -23,10 +23,11 @@ Finishing deadline: First of June 2024
 <p>This agriculture project is powered by arduino ESP32 micro-controller, this projects aims towards building a smart agriculture house containing a handful amount of sensors in order to achieve a smarter way of monitoring plants. it's equipped with state-of-the-art security measurements and immediate alarms and protective actions.</p>
 <br>  
 
-***The following image contains a prototype describing how the system works.***
+***The following 3D gif contains a prototype describing how the system works.***
 
 <br>
-<center><image src="digrams/prototype.png"></image></center>
+<center><image src="digrams/protogif.gif"></image></center>
+<a href="digrams/prototype.png">Click here to view 2D digram</a>
 <h1>Features</h1>
 <h4>Water supplying:</h4>
 In this feature there will be a connected water supply tube to every plant in the system, the water will be supplied depending on Whether the ground is dry or not.<br>There will be a wiether check using an API  when the day is rainy the water supplying will be skipped.
@@ -63,6 +64,7 @@ Responsible for providing plants with lights if needed, determined using a photo
   <li>Alarm ligh (LED Red)</li> <a href="https://www.aliexpress.com/item/1005003323707856.html?spm=a2g0o.order_list.order_list_main.49.5c471802ypflOP">View on aliexpress</a>
   <li>5mm fans</li> <a href="https://www.aliexpress.com/item/1005003878734109.html?spm=a2g0o.order_list.order_list_main.44.5c471802ypflOP">View on aliexpress</a>
   <li>4*20 LCD Display</li> <a href="https://www.aliexpress.com/item/4000863723154.html?spm=a2g0o.order_list.order_list_main.39.5c471802ypflOP">View on aliexpress</a>
+  <li>stepper motor</li><a>Not yet decided</a>
 </ul>
 
 
