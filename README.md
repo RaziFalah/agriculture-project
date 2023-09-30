@@ -27,6 +27,7 @@ Finishing deadline: First of June 2024
 
 <br>
 <center><image src="digrams/protogif.gif"></image></center>
+<a href="https://www.tinkercad.com/things/bjxyPMTghpm?sharecode=-sOVYjYutNeJOz8-vHF4RAPE3Cq87EVQZT0kTKe_JxA">Click here to view in 3D live simulation.</a>
 <a href="digrams/prototype.png">Click here to view 2D digram</a>
 <h1>Features</h1>
 <h4>Water supplying:</h4>
@@ -43,6 +44,8 @@ Responsible for handiling pop-up alarms.
 Responsible for handiling alarms and weather data.
 <h4>Artificial lighting system</h4>
 Responsible for providing plants with lights if needed, determined using a photoresistor or time table. <br>
+<h4>automatic ceiling</h4>
+This ceiling will auto-close or auto-open depends on the data provided by the sensors and the api.
 <br><hr>
 
 ***Exampe of the code running in the ESP32 based on the API data***
