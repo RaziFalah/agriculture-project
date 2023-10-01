@@ -11,6 +11,7 @@
 * [LCD information and alarm display](#lcd-information-and-alarm-display)
 * [Moisture sensor](#moisture-sensor)
 * [Stepper motor](#stepper-motor)
+* [Water pump](water-pump)
 
 <h1>Alarm and information speaker</h1>
 <image src="../digrams/alarm_information_speaker.png">
@@ -52,18 +53,6 @@
 <image src="../digrams/stepper_motor.png">
 <p>This motor will be responsible for adjusting the ceiling</p>
 <hr>
-<h1></h1>
-<image src="../digrams/">
-<p></p>
-<hr>
-<h1></h1>
-<image src="../digrams/">
-<p></p>
-<hr>
-<h1></h1>
-<image src="../digrams/">
-<p></p>
-<hr>
-<h1></h1>
-<image src="../digrams/">
-<p></p>
+<h1>Water pump</h1>
+<image src="../digrams/water_pump.png">
+<p>As mentioned above the water pump will supply the plants with water as the sensors and API instruct.</p>
