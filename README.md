@@ -72,6 +72,7 @@ This camera will be placed inside of the house, and will provide us with video s
   <li>4*20 LCD Display</li> <a href="https://www.aliexpress.com/item/4000863723154.html?spm=a2g0o.order_list.order_list_main.39.5c471802ypflOP">View on aliexpress</a>
   <li>stepper motor</li><a>Not yet decided</a>
   <li>ESP32-Cam</li><a href="https://www.aliexpress.com/item/1005004518669324.html?spm=a2g0o.order_list.order_list_main.4.2bbd7385CfUkpV#nav-review">View on aliexpress</a>
+  <li>IC2 to LCD adapter</li> Not yet decided
 </ul>
 
 
