@@ -47,6 +47,8 @@ Responsible for handiling alarms and weather data.
 Responsible for providing plants with lights if needed, determined using a photoresistor or time table. <br>
 <h4>automatic ceiling</h4>
 This ceiling will auto-close or auto-open depends on the data provided by the sensors and the api.
+<h4>Indoor camera</h4>
+This camera will be placed inside of the house, and will provide us with video stream and image data of the situation inside.
 <br><hr>
 
 ***Exampe of the code running in the ESP32 based on the API data***
@@ -69,6 +71,7 @@ This ceiling will auto-close or auto-open depends on the data provided by the se
   <li>5mm fans</li> <a href="https://www.aliexpress.com/item/1005003878734109.html?spm=a2g0o.order_list.order_list_main.44.5c471802ypflOP">View on aliexpress</a>
   <li>4*20 LCD Display</li> <a href="https://www.aliexpress.com/item/4000863723154.html?spm=a2g0o.order_list.order_list_main.39.5c471802ypflOP">View on aliexpress</a>
   <li>stepper motor</li><a>Not yet decided</a>
+  <li>ESP32-Cam</li><a href="https://www.aliexpress.com/item/1005004518669324.html?spm=a2g0o.order_list.order_list_main.4.2bbd7385CfUkpV#nav-review">View on aliexpress</a>
 </ul>
 
 
