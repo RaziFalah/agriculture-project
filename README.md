@@ -49,7 +49,7 @@ Responsible for providing plants with lights if needed, determined using a photo
 This ceiling will auto-close or auto-open depends on the data provided by the sensors and the api.
 <h4>Indoor camera</h4>
 This camera will be placed inside of the house, and will provide us with video stream and image data of the situation inside.
-<br><hr>
+<br><a href="https://github.com/RaziFalah/agriculture-project/blob/main/3Dcomponents/README.md">For more information about the features, please visit the 3D documentation about the mechanics and components of this project</a><hr>
 
 ***Exampe of the code running in the ESP32 based on the API data***
 
@@ -57,7 +57,7 @@ This camera will be placed inside of the house, and will provide us with video s
 
 <h1>Components</h1>
 <h4>Needed components</h4>
-<p>Most components was already provided at my expense</p>
+<p>Most components was already provided at my expense</p><br><a href="https://github.com/RaziFalah/agriculture-project/blob/main/3Dcomponents/README.md">For more information about the components, please visit the 3D documentation about the mechanics and components of this project</a>
 <ul>
   <li>ESP32 Board</li> <a href="https://www.aliexpress.com/item/1005004879572949.html?spm=a2g0o.order_list.order_list_main.9.5c471802ypflOP">View on aliexpress</a>
   <li>Power supply</li> <a>Not yet decided.</a>
