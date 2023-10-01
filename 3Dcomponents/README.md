@@ -1,5 +1,5 @@
 ## Table of contents
-* [Alarm and information speaker](#Alarm_information_speaker)
+* [Alarm and information speaker](#alarm-information-speaker)
 * [Features](#features)
 * [Components](#components)
 * [Functions](#functions)
