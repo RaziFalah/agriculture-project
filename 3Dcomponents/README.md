@@ -59,4 +59,4 @@
 <p>As mentioned above the water pump will supply the plants with water as the sensors and API instruct.</p>
 <h1>Eroom</h1>
 <image src="../digrams/eroom.png">
-<p>The errom will be the brain of this house, it will host the esp32 and will be the destination of all the wiring. It will also architecturally hold the ceiling when it extends backwards to allow sunlight to access the plants.</p>
+<p>The errom will be the brain of this house, it will host the esp32 and will be the destination of all the wiring. It will also architecturally hold the ceiling when it extends backwards to allow sunlight to access the plants. Please note that this image shown above shows only the structure of the room, it is empty and does not contain necessary components yet.</p>
