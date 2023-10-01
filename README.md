@@ -48,8 +48,8 @@ Responsible for providing plants with lights if needed, determined using a photo
 <h4>automatic ceiling</h4>
 This ceiling will auto-close or auto-open depends on the data provided by the sensors and the api.
 <h4>Indoor camera</h4>
-This camera will be placed inside of the house, and will provide us with video stream and image data of the situation inside.
-<br><a href="https://github.com/RaziFalah/agriculture-project/blob/main/3Dcomponents/README.md">For more information about the features, please visit the 3D documentation about the mechanics and components of this project</a><hr>
+This camera will be placed inside of the house, and will provide us with video stream and image data of the situation inside. The following image is an estimation of the camera viewport.<br><br><image src="digrams/estcam.png">
+<br><br><a href="https://github.com/RaziFalah/agriculture-project/blob/main/3Dcomponents/README.md">For more information about the features, please visit the 3D documentation about the mechanics and components of this project</a><hr>
 
 ***Exampe of the code running in the ESP32 based on the API data***
 
