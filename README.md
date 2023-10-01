@@ -23,7 +23,7 @@ Finishing deadline: First of June 2024
 <p>This agriculture project is powered by arduino ESP32 micro-controller, this projects aims towards building a smart agriculture house containing a handful amount of sensors in order to achieve a smarter way of monitoring plants. it's equipped with state-of-the-art security measurements and immediate alarms and protective actions.</p>
 <br>  
 
-***The following 3D gif contains a prototype describing how the system works.***
+***The following 3D gif contains a prototype describing the structure of the agricultural house.***
 
 <br>
 <center><image src="digrams/protogif.gif"></image></center>
