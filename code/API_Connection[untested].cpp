@@ -33,6 +33,8 @@ void setup() {
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
+  } else {
+    serial.print("Internet connection failed!")
   }
 
   Serial.println("");
@@ -77,9 +79,10 @@ void loop() {
       Serial.println(" %");
 
     } else {
-      Serial.println("Error!");
+      Serial.println("HTTP Error");
       lcd.clear();
-      lcd.print("Can't Get DATA!");
+      lcd.print("Trying again shortly...");
+      delay(5000)
     }
 
     http.end();
