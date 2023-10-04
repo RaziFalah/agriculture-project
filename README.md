@@ -1,4 +1,5 @@
-<hr>Project by <a href="https://razifalah.com" target="_blank">Razi Falah</a>.<br>
+
+<h1>Credits and project's information</h1>Project by <a href="https://razifalah.com" target="_blank">Razi Falah</a>.<br>
 Micro-controller board: ESP32.<br>
 APIs: openweather.<br>
 This project is currently in development by Razi Falah and not yet finished.<br>
