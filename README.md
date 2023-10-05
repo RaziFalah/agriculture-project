@@ -32,6 +32,7 @@ Finishing deadline: First of June 2024
 <a href="3Dcomponents">Click here to view components in more details.</a><br>
 <a href="digrams/prototype.png">Click here to view 2D digram</a>
 
+<br><br>
 
 *** the following digram contains the project's graph ***
 <image src="digrams/prototype.png">
