@@ -28,13 +28,18 @@ Finishing deadline: First of June 2024
 
 <br>
 <center><image src="digrams/protogif.gif"></image></center>
+
+
+***The following image is a blueprint of the system***
+<br><center><image src="digrams/blueprint.jpeg"></center>
+
 <a href="https://www.tinkercad.com/things/bjxyPMTghpm?sharecode=-sOVYjYutNeJOz8-vHF4RAPE3Cq87EVQZT0kTKe_JxA">Click here to view in 3D live simulation.</a><br>
 <a href="3Dcomponents">Click here to view components in more details.</a><br>
 <a href="digrams/prototype.png">Click here to view 2D digram</a>
 
 <br><br>
 
-*** the following digram contains the project's graph ***
+*** the following digram contains the project's blueprint ***
 <image src="digrams/prototype.png">
 
 
