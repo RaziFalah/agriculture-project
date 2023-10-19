@@ -1,7 +1,7 @@
 <h1>Serial moniter test</h1>
 <p>Turning on and off a led using esp32 while simultaneously feed data to the serial console.</p>
 
-<image src="digrams/esp32_serial_monitor.png">
+<image src="../digrams/esp32_serial_monitor.png">
 
 <h1>Code</h1>
 
