@@ -21,7 +21,7 @@ Finishing deadline: First of June 2024
 
 
 <h1>Introduction</h1>
-<p>This agriculture project is powered by arduino ESP32 micro-controller, this projects aims towards building a smart agriculture house containing  a cuople of sensors and API feeder in order to achieve a smarter way of monitoring plants. it's equipped with state-of-the-art security measurements and immediate alarms and protective actions.</p>
+<h3>For a proper introduction, please view the following pdf file:</h3> <a href="https://github.com/RaziFalah/agriculture-project/blob/main/docs/English_intro.pdf"><image src="https://raw.githubusercontent.com/toondaey/nestjs-pdf/master/pdf-icon.svg" border="0" width="200" height="40"></a>
 <br>  
 
 ***The following 3D gif contains a prototype describing the structure of the agricultural house.***
