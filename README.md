@@ -22,7 +22,7 @@ Finishing deadline: First of June 2024
 
 
 <h1>Introduction</h1>
-<h3>For a proper introduction, please view the following pdf file:</h3> <a href="https://github.com/RaziFalah/agriculture-project/blob/main/docs/English_intro.pdf"><image src="https://raw.githubusercontent.com/toondaey/nestjs-pdf/master/pdf-icon.svg" border="0" width="200" height="40"></a>
+<h3>For a proper introduction, please view the following pdf file:</h3>(CLICK AT THE PDF LOGO) <a href="https://github.com/RaziFalah/agriculture-project/blob/main/docs/English_intro.pdf"><image src="https://raw.githubusercontent.com/toondaey/nestjs-pdf/master/pdf-icon.svg" border="0" width="200" height="40"></a>
 <br>  
 
 ***The following 3D gif contains a prototype describing the structure of the agricultural house.***
