@@ -35,8 +35,7 @@ Finishing deadline: First of June 2024
 
 <br><br>
 
-*** the following digram contains the project's blueprint ***
-<image src="digrams/prototype.png">
+
 
 
 
