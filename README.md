@@ -28,11 +28,6 @@ Finishing deadline: First of June 2024
 
 <br>
 <center><image src="digrams/protogif.gif"></image></center>
-
-
-***The following image is a blueprint of the system***
-<br><center><image src="digrams/blueprint.jpeg"></center>
-
 <a href="https://www.tinkercad.com/things/bjxyPMTghpm?sharecode=-sOVYjYutNeJOz8-vHF4RAPE3Cq87EVQZT0kTKe_JxA">Click here to view in 3D live simulation.</a><br>
 <a href="3Dcomponents">Click here to view components in more details.</a><br>
 <a href="digrams/prototype.png">Click here to view 2D digram</a>
@@ -47,7 +42,7 @@ Finishing deadline: First of June 2024
 
 <h1>Features</h1>
 <h4>Water supplying:</h4>
-In this feature there will be a connected water supply tube to every plant in the system, the water will be supplied depending on Whether the ground is dry or not.<br>There will be a wiether check using an API  when the day is rainy the water supplying will be skipped.
+In this feature there will be a connected water supply tube to every plant in the system, the water will be supplied depending on Whether the ground is dry or not.<br>There will be a weather check using an API  when the day is rainy the water supplying will be skipped.
 <h4>Humidity monitoring</h4>
 The system will counduct humidity check only if the Humidity level is unacceptable there will be a warning to the web interface and also a sonic warning. (Humidity checks will be virtual and powered by OpenWeather API).
 <h4>Temperature monitoring</h4>
