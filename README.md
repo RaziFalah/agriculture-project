@@ -17,6 +17,7 @@ Finishing deadline: First of June 2024
 
 <a href="https://github.com/RaziFalah/agriculture-project/blob/main/esp32_status.md">view ESP32 status</a><br>
 <a href="https://github.com/RaziFalah/agriculture-project/blob/main/notes.md">View notes table.</a><br>
+<a href="https://github.com/RaziFalah/agriculture-project/blob/main/information/README.md">View blueprints</a><br>
 
 
 
