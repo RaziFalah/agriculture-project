@@ -133,4 +133,4 @@ This camera will be placed inside of the house, and will provide us with video s
 
 
 
-<h1><a href="docs/Error.m/">Visit error log here</a></h1>
+<h1><a href="docs/Error.md/">Visit error log here</a></h1>
