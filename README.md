@@ -49,7 +49,6 @@ Finishing deadline: First of June 2024
 
 
 
-
 <h1>Features</h1>
 <h4>Water supplying:</h4>
 In this feature there will be a connected water supply tube to every plant in the system, the water will be supplied depending on Whether the ground is dry or not.<br>There will be a weather check using an API  when the day is rainy the water supplying will be skipped.
@@ -130,3 +129,8 @@ This camera will be placed inside of the house, and will provide us with video s
 <image src="digrams/light_supplier.gif"><br>
 
 <p>This light supplier works only in the day, it determines if it should run or not based on Openweather API to get night/day status and also a light sensor.</p>
+
+
+
+
+<h1><a href="docs/Error.m/">Visit error log here</a></h1>
