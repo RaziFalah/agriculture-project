@@ -6,6 +6,8 @@ This project is currently in development by Razi Falah and not yet finished.<br>
 This project is written in english for better research and will be translated to Arabic or Hebrew <br> as requested by the ministry of education.<br>
 <a href="https://wokwi.com/projects/376210317579552769">ESP32 simulation can be found if clicked here.</a><br>
 Finishing deadline: First of June 2024
+<center><image src="image log/SAM_0403.JPG"></image></center>
+
 <hr>
 
 ## Table of contents
@@ -13,6 +15,7 @@ Finishing deadline: First of June 2024
 * [Features](#features)
 * [Components](#components)
 * [Functions](#functions)
+
 
 
 <a href="https://github.com/RaziFalah/agriculture-project/blob/main/esp32_status.md">view ESP32 status</a><br>
@@ -32,6 +35,13 @@ Finishing deadline: First of June 2024
 <a href="https://www.tinkercad.com/things/bjxyPMTghpm?sharecode=-sOVYjYutNeJOz8-vHF4RAPE3Cq87EVQZT0kTKe_JxA">Click here to view in 3D live simulation.</a><br>
 <a href="3Dcomponents">Click here to view components in more details.</a><br>
 <a href="digrams/prototype.png">Click here to view 2D digram</a>
+
+***Real time documentation: (Not the final version).***
+<center><image src="image log/SAM_0393.JPG"></image></center>
+<center><image src="image log/SAM_0397.JPG"></image></center>
+<center><image src="image log/SAM_0398.JPG"></image></center>
+<center><image src="image log/SAM_0399.JPG"></image></center>
+
 
 <br><br>
 
