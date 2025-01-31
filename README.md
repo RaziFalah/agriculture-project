@@ -1,3 +1,12 @@
+<h1>This project was given the perfect score!!!!!! </h1>
+
+
+![image](https://github.com/user-attachments/assets/1308d59a-d4bd-4bad-bb17-420d887f187e)
+![image](https://github.com/user-attachments/assets/d2208ec0-e42b-46f1-b4a8-5a87b6b2614f)
+
+
+
+
 
 <h1>Credits and project's information</h1>Project by <a href="https://razifalah.com" target="_blank">Razi Falah</a>.<br>
 Micro-controller board: ESP32.<br>
